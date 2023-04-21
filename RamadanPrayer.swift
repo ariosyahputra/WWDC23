@@ -22,7 +22,7 @@ struct RamadanPrayer: View {
                     Spacer()
             }
             
-            LottieView(name: "ramadan_prayer",loopMode: .autoReverse)
+            Image("ramadan_prayer")
                 .frame(width: 250, height: 250)
             
             VStack{

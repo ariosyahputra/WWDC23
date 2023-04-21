@@ -10,7 +10,6 @@ import SwiftUI
 struct Question {
     let number: Int
     let question: String
-//    let choices: [String]
     let choices: [(id: Int, value: String)]
     let correctAnswerIndex: Int
 }

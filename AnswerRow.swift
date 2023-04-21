@@ -44,7 +44,7 @@ struct AnswerRow_Previews: PreviewProvider {
         AnswerRow(
             questionIndex: 1, correctAnswerIndex: 1,
             onNextQuestion: {_ in 
-                print("Go to next question")
+                print("Next")
             }
         )
     }

@@ -34,15 +34,9 @@ let package = Package(
             ]
         )
     ],
-    dependencies: [
-        .package(url: "https://github.com/airbnb/lottie-ios.git", "4.0.0"..<"5.0.0")
-    ],
     targets: [
         .executableTarget(
             name: "AppModule",
-            dependencies: [
-                .product(name: "Lottie", package: "lottie-ios")
-            ],
             path: ".",
             resources: [
                 .process("Resources")

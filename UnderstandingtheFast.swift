@@ -23,7 +23,7 @@ struct UnderstandingtheFast: View {
                     Spacer()
             }
             
-            LottieView(name: "understanding_thefast",loopMode: .autoReverse)
+            Image("understanding_thefast")
                 .frame(width: 250, height: 250)
             
             

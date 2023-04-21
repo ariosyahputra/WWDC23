@@ -21,10 +21,11 @@ struct HomeView: View {
                         .font(.system(size: 37))
                         .fontWeight(.heavy)
                         .foregroundColor(Color("DarkGreen"))
-
-                    LottieView(name: "ramadan_learn", loopMode: .autoReverse)
-                        .frame(width: 380, height: 290)
+                    
+                 
+                    Image("ramadan_learn").frame(width: 380, height: 290)
                         .padding(.vertical,60)
+                        
 
                     Text("Get ready to embark on a journey to learn about\n the traditions and practices of Ramadan.")
                         .font(.system(size: 15))
